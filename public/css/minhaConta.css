@@ -1,0 +1,94 @@
+.container-body-dados {
+    background-color: rgb(143, 143, 143);
+}
+
+.container-dados-card {
+    background-color: white;
+    height: 740px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.title-principal {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-dados {
+    padding: 10px 10px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img-logo-dados {
+    width: 50%;
+}
+
+.logo span {
+    color: rgb(233, 118, 10);
+}
+
+.name-avatar {
+    color: white;
+}
+
+img.img-avatar-dados {
+    padding-top: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.section-dados {
+    display: block;
+    width: 100%;
+}
+
+.title-dados {
+    padding-left: 22px;
+}
+
+.row-dados {
+    margin: 0px 15px 20px 15px;
+    padding: 12px 0px 1px 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.text-dados {
+    font-size: 1.2rem;
+}
+
+.btn-dados {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 98%;
+    border: none;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: block;
+}
+
+.btn-dados:hover {
+    background-color: rgb(5, 197, 197);
+}
+
+.btn-dados:active{
+    background-color: rgb(5, 197, 197);
+}
+
+.btn-dados a {
+    text-decoration: none;
+    border: none;
+}
+
+
+

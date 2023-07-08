@@ -1,0 +1,12 @@
+
+
+:root {
+    --font-color: white;
+    --background-input: #747474;
+    --background-fundo: #000;
+    --background-body: #e4f8d7;
+}
+
+body {
+    background-color: var(--background-body);
+}

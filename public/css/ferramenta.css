@@ -1,0 +1,77 @@
+
+#ferramenta {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+
+.ferramenta-link {
+    padding-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--font-color);
+}
+
+.title-cadastro {
+        font-size: 1.5rem;   
+}
+
+.fa-arrow-up {
+    
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.title-ferramenta {
+    text-align: center;
+    color: white;
+    padding: 50px 0 30px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.card-ferramenta {
+    background-color: var(--background-input);
+    border-radius: 10px;
+    margin: 2%;
+    padding-top: 5%;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-ferramenta:hover {
+    opacity: 0.8;
+}
+
+.card-ferramenta:active{
+    opacity: 0.5;
+}
+
+.card-ferramenta p {
+    color: white;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+#f-ferramenta {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #ferramenta {
+        width: 80%;
+    }
+}

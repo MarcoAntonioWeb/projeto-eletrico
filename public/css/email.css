@@ -1,0 +1,98 @@
+
+#conteudo {
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.avatar img {
+    width: 300px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.avatar h3 {
+    color: white;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.avatar p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.avatar label {
+    display: none;
+}
+
+.avatar input {
+    border: 2px solid #747474;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 3px;
+    background-color: #000;
+    color: #747474;
+}
+
+.avatar .link-login {
+    color: rgb(197, 69, 23);
+    text-align: end;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: 1s all;
+    text-decoration: none;
+}
+
+.link-login:hover {
+    color: rgb(233, 133, 96);
+    text-decoration: underline;
+    
+}
+
+.avatar button {
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #747474;
+    margin-bottom: 35px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    transition: 1s all;
+}
+
+.create-dados {
+    border: 20px solid red;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #747474;
+    margin-bottom: 35px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    transition: 1s all;
+}
+
+.avatar button:hover {
+    opacity: 0.8;
+}
+
+
+
+@media (max-width: 768px) {
+    #conteudo {
+        width: 80%;
+    }
+}

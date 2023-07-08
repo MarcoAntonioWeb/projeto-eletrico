@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!---- Template componet Include ------>
+<%- include('parts/page-head'); -%>
+
+
+<body class="container-body-dados">
+    <div class="container">
+        <div class="container-dados-card">
+
+            <div class="nav-dados">
+                <div class="logo">
+                    <img class="img-logo-dados" src="/img/logo.png" alt="logo empresa">
+                    
+                </div>
+
+                <div class="avatar">
+                    <span class="name-avatar">Marco Antonio</span>
+                    <img class="img-avatar-dados" src="/img/avatar.jpg" alt="imagem de sua foto">
+                </div>
+            </div>
+
+            <div class="section-dados">
+                <h2 class="title-principal">Dados Cadastrais</h2>
+
+                <div class="card-dados">
+                    <span class="title-dados">Primeiro Nome</span>
+                    <div class="row-dados">
+                        <p class="text-dados">Marco</p>
+                    </div>
+                    
+                    <span class="title-dados">Sobre Nome</span>
+                    <div class="row-dados">
+                        <p>Antonio</p>
+                    </div>
+                    
+                    <span class="title-dados">email</span>
+                    <div class="row-dados">
+                        <p>world.solucoe.eletrica@hotmail.com</p>
+                    </div>
+                    
+                    <span class="title-dados">Senha</span>
+                    <div class="row-dados">
+                        <p>Marco Antonio</p>
+                    </div>
+                    
+                    <span class="title-dados">Celular</span>
+                    <div class="row-dados">
+                        <p>(61)98587-6003</p>
+                    </div>
+
+                    <form id="form-dados" action="/cadastro">
+                        <button class="btn-dados" form="form-dados">
+                            Atualizar Cadastro
+                        </button>
+                    </form>
+                       
+                </div>
+
+                
+                    
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="src/js/cadastro.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/bootstrap/js/dist/popover.js"></script>
+    
+</body>
+</html>

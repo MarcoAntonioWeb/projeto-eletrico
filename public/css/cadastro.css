@@ -1,0 +1,81 @@
+
+#cadastro {
+    width: 50%;
+    color: white;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.information-cadastro {
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.cadastro-link {
+    padding-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title-cadastro {
+        font-size: 1.5rem;   
+}
+
+.fa-arrow-up {
+    
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.cadastro-dados label {
+    display: none;
+}
+
+.cadastro-dados input {
+    border: 2px solid #747474;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 3px;
+    background-color: #000;
+    color: #747474;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.cadastro-dados button {
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #747474;
+    margin-bottom: 35px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    transition: 1s all;
+}
+
+.cadastro-dados button:hover {
+    opacity: 0.5  ;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #cadastro {
+        width: 80%;
+    }
+
+    .fa-arrow-up {
+        font-size: 1.5rem;
+    }
+}
+

@@ -1,0 +1,122 @@
+/*** Page Cable ******/
+.conteudo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0 20px 0;
+    font-weight: 900;
+}
+
+.main {
+    width: 50%;
+    flex: auto;
+    margin:10px auto;
+    padding: 12px;
+    background: rgb(230, 243, 230);
+    border-radius: 10px;
+}
+
+.main h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px 0 5px 0;
+}
+
+.main h6 {
+    font-weight: 500;
+    color: rgb(141, 141, 141);
+}
+
+.main span {
+    font-size: 0.8rem;
+}
+
+.fontAtual {
+    font-size: 0.7rem;
+}
+
+.main .inputumber {
+    width: 70px;
+    height: 27px;
+    margin-bottom: 5px;
+    
+}
+
+#btnSalvarMaterial {
+    margin: 0 10%;
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: rgb(31, 31, 255);
+    color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#btnSalvarMaterial:hover {
+    background-color: rgb(3, 3, 172);
+}
+
+#btnSalvaraterial:active {
+    background-color: rgb(3, 3, 172);
+}
+
+/******* Ativação do CARD *******/
+.todo {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 2000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 1;
+    visibility: hidden;
+
+    z-index: 1;
+}
+
+.card-imp {
+    position: relative;
+    width: 47%;
+    
+    padding: 5px 20px 30px 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    z-index: 999;
+   
+}
+
+.card-imp h4 {
+    text-align: center;
+    
+}
+
+.cardAtive {
+    opacity: 1;
+    visibility: visible;
+   
+}
+
+.close {
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#imp {
+    margin-top: 10%;
+    margin-left: 25%;
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(31, 31, 255);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#imp:hover {
+    background-color: rgb(3, 3, 172);
+}

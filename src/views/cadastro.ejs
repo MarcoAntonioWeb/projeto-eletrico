@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relação-Material-Cadastro</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!------ CSS bootstrap-------->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!------ CSS bootstrap Fontawesome-------->
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+
+
+</head>
+<body>
+  
+    <div class="container" id="cadastro">
+        <div>
+            <div class="cadastro-link">
+                <a href="/">
+                <i class="fa-solid fa-arrow-up fa-rotate-270 "></i>   
+                </a>
+                <span class="title-cadastro">Cadastro</span> 
+            </div>
+            
+        </div>
+        
+
+        <div>
+            <h3 class="information-cadastro">Insira as informações Abaixo</h3>
+        </div>
+
+        <form action="/ferramenta" method="POST" id="cadastroAtual">
+
+            <div class="d-flex flex-column cadastro-dados">
+   
+                    <label for="primeiro nome">Primeiro Nome</label>
+                    <input type="text" name="primeiroNome" id="primeiroNome" placeholder="Primeiro Nome">
+                    
+                
+                    <label for="sobre nome">Sobre Nome</label>
+                    <input type="text" name="sobreNome" id="sobreNome" placeholder="Sobre Nome">            
+                
+                    <label for="email">Seu email</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+
+                    <label for="email">Celular</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Celular">
+                         
+                    <label for="senha">Senha</label>
+                    <input type="password" name="suaSenha" id="suaSenha" placeholder="Sua Senha">
+                
+                    <label for="confirme senha">Confirme Senha</label>
+                    <input type="password" name="confirmaSenha" id="confirmaSenha" placeholder="Confirmar Senha">
+    
+                    <button type="submit" id="btn-cadastro">Cadastrar</button>
+
+            </div>
+            
+        </form>
+
+    </div>
+
+
+
+    <script src="/js/cadastro.js"></script>
+    <script src="/js/all.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+ 
+    
+
+
+</body>
+</html>

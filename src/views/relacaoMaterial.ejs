@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<%- include('parts/page-head')  -%>
+<body>
+    <div class="container" id="ferramenta">
+        <div> 
+            <div class="ferramenta-link">
+                <a href="/ferramenta">
+                    <i class="fa-solid fa-arrow-up fa-rotate-270 "></i>   
+                </a>
+                <span class="title-cadastro">Relação Material</span> 
+            </div>
+
+            <div>
+                <h3 class="title-ferramenta">Escolha sua relação de materiais</h3>
+            </div>
+
+            <form action="">
+                <div class="row">
+                    <div class="col card-ferramenta" >
+                        <a href="/cable">
+                            <i class="fa-solid fa-clipboard-list "id="f-ferramenta"></i>
+                        </a>
+                        <p>Cabos e fios elétricos</p>
+                    </div>
+
+                    <div class="col card-ferramenta">
+                        <a href="/agenda">
+                            <i class="fa-solid fa-clipboard-list "id="f-ferramenta"></i>
+                        </a>
+                        <p>Relação de disjuntores</p>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col card-ferramenta">
+                            <a href="/minhaConta">
+                                
+                                <i class="fa-solid fa-clipboard-list "id="f-ferramenta"></i>
+                            </a>
+                            <p>Relação de Tubulações</p>
+                        </div>
+    
+                        <div class="col card-ferramenta">
+                            <a href="/orcamento">
+                                <i class="fa-solid fa-clipboard-list "id="f-ferramenta"></i>
+                            </a>
+                            <p>Material diverso</p>
+                        </div>
+            </form>
+    </div>
+  
+    <script src="/js/all.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
