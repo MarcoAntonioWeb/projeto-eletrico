@@ -5,7 +5,7 @@ module.exports = {
     },
 
      save(req, res) {
-        const novoEmail = req.body.email
+        const novoEmail = req.body
         if(novoEmail == "") {
             return res.render("index")
         } else {
